@@ -1,0 +1,33 @@
+.table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table {
+    table-layout: fixed;
+    margin-bottom: 10px;
+}
+
+.table_body {
+    display: block;
+    max-height: 70vh;
+    overflow-y: scroll;
+}
+
+.table_row {
+    display: grid;
+    grid-template-columns: 50px repeat(3, 200px);
+}
+
+.table thead tr {
+    display: grid;
+    grid-template-columns: 50px repeat(3, 200px);
+}
+
+.empty_list {
+    width: 100%;
+}
+
+.selected {
+    background: rgba(0, 128, 0, 0.3);
+}
